@@ -1,0 +1,17 @@
+{
+  "name": "shrinkwrap-to-lockfile",
+  "version": "1.0.0",
+  "description": "Migrate your npm shrinkwrap to a yarn lockfile.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shrinkwrap-to-lockfile": "bin/cli.js"
+  },
+  "author": "Matthijs Dabroek <dabroek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
