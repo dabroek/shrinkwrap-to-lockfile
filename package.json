@@ -1,6 +1,6 @@
 {
   "name": "shrinkwrap-to-lockfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Migrate your npm shrinkwrap to a yarn lockfile.",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,20 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dabroek/shrinkwrap-to-lockfile.git"
+  },
+  "keywords": [
+    "migrate",
+    "npm",
+    "shrinkwrap",
+    "yarn",
+    "lockfile"
+  ],
+  "bugs": {
+    "url": "https://github.com/dabroek/shrinkwrap-to-lockfile/issues"
+  },
+  "homepage": "https://github.com/dabroek/shrinkwrap-to-lockfile#readme"
 }

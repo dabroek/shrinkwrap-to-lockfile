@@ -2,10 +2,10 @@
 
 Migrate your `npm-shrinkwrap.json` to a yarn lockfile without a headache!
 
-There is three steps we perform with this migration:
-* We extract the dependencies from the `npm-shrinkwrap.json`;
-* We save and lock down these dependencies in the `package.json` (removing the ~ or ^); 
-* We generate a new `yarn.lock` file from the updated `package.json`.
+The migration consists of three steps:
+* extract the dependency versions from the `npm-shrinkwrap.json`;
+* save and lock down these versions in the `package.json` (by removing the version leniency, i.e. `~` and `^`); 
+* generate a new `yarn.lock` file from the updated `package.json`.
 
 ## Installation
 
